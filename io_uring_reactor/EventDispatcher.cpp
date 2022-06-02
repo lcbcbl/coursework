@@ -2,6 +2,9 @@
 
     使用io_uring 作为事件分发器
 
+
+    reactor介绍博客
+    https://www.cnblogs.com/rainbowsea1/p/13180771.html
 */
 
 
