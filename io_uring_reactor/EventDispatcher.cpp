@@ -14,10 +14,25 @@
 using namespace io_uring_reactor;
 
 
+EventDispatcher::EventDispatcher()
+    :quit_(false)
+    {
 
+    }
 
 
 // 使用 io_uring 获取就绪事件
 void EventDispatcher::loop(){
 
+
+    while (!quit_)
+    {
+        /* code */
+    }
+    
+}
+
+
+void EventDispatcher:: updateChannel(Channel* channel){
+    
 }

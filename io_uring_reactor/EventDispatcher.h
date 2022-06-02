@@ -17,14 +17,7 @@ class EventDispatcher {
         void quit();
 
         void updateChannel(Channel* channel);
-        // void removeChannel(Channel* channel);
-
-
-
-
-        void register_handler();
-        void remove_handler();
-
+        void removeChannel(Channel* channel);
 
 
 
@@ -32,9 +25,9 @@ class EventDispatcher {
 
         typedef std::vector<Channel*> ChannelList;
 
-        bool looping_; /* atomic */
+        // bool looping_; /* atomic */
         bool quit_; /* atomic */
-        const pid_t threadId_;
+        // const pid_t threadId_;
         Poller *poller_;
         ChannelList activeChannels_;
 };
