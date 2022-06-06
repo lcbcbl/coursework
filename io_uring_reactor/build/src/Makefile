@@ -260,33 +260,6 @@ DefaultPoller.cpp.s:
 	cd /home/cb/code/coursework/io_uring_reactor/build && $(MAKE) -f src/CMakeFiles/io_uring_reactor.dir/build.make src/CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.s
 .PHONY : DefaultPoller.cpp.s
 
-EpollPoller.o: EpollPoller.cpp.o
-
-.PHONY : EpollPoller.o
-
-# target to build an object file
-EpollPoller.cpp.o:
-	cd /home/cb/code/coursework/io_uring_reactor/build && $(MAKE) -f src/CMakeFiles/io_uring_reactor.dir/build.make src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o
-.PHONY : EpollPoller.cpp.o
-
-EpollPoller.i: EpollPoller.cpp.i
-
-.PHONY : EpollPoller.i
-
-# target to preprocess a source file
-EpollPoller.cpp.i:
-	cd /home/cb/code/coursework/io_uring_reactor/build && $(MAKE) -f src/CMakeFiles/io_uring_reactor.dir/build.make src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.i
-.PHONY : EpollPoller.cpp.i
-
-EpollPoller.s: EpollPoller.cpp.s
-
-.PHONY : EpollPoller.s
-
-# target to generate assembly for a file
-EpollPoller.cpp.s:
-	cd /home/cb/code/coursework/io_uring_reactor/build && $(MAKE) -f src/CMakeFiles/io_uring_reactor.dir/build.make src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.s
-.PHONY : EpollPoller.cpp.s
-
 EventLoop.o: EventLoop.cpp.o
 
 .PHONY : EventLoop.o
@@ -635,9 +608,6 @@ help:
 	@echo "... DefaultPoller.o"
 	@echo "... DefaultPoller.i"
 	@echo "... DefaultPoller.s"
-	@echo "... EpollPoller.o"
-	@echo "... EpollPoller.i"
-	@echo "... EpollPoller.s"
 	@echo "... EventLoop.o"
 	@echo "... EventLoop.i"
 	@echo "... EventLoop.s"

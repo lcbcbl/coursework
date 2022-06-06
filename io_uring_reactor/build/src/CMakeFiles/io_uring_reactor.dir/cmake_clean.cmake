@@ -6,7 +6,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/io_uring_reactor.dir/Channel.cpp.o"
   "CMakeFiles/io_uring_reactor.dir/CurrentThread.cpp.o"
   "CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.o"
-  "CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o"
   "CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.o"
   "CMakeFiles/io_uring_reactor.dir/EventLoopThread.cpp.o"
   "CMakeFiles/io_uring_reactor.dir/EventLoopThreadPool.cpp.o"

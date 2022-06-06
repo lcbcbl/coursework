@@ -32,20 +32,11 @@ src/CMakeFiles/io_uring_reactor.dir/CurrentThread.cpp.o
  /home/cb/code/coursework/io_uring_reactor/src/CurrentThread.cpp
 src/CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.o
  ../include/Channel.hpp
- ../include/EpollPoller.hpp
  ../include/NonCopyable.hpp
  ../include/Poller.hpp
  ../include/TimeStamp.hpp
  ../include/UringPoller.hpp
  /home/cb/code/coursework/io_uring_reactor/src/DefaultPoller.cpp
-src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o
- ../include/Channel.hpp
- ../include/EpollPoller.hpp
- ../include/Logger.hpp
- ../include/NonCopyable.hpp
- ../include/Poller.hpp
- ../include/TimeStamp.hpp
- /home/cb/code/coursework/io_uring_reactor/src/EpollPoller.cpp
 src/CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.o
  ../include/Channel.hpp
  ../include/CurrentThread.hpp

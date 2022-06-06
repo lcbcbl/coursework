@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/cb/code/coursework/io_uring_reactor/src/Channel.cpp" "/home/cb/code/coursework/io_uring_reactor/build/src/CMakeFiles/io_uring_reactor.dir/Channel.cpp.o"
   "/home/cb/code/coursework/io_uring_reactor/src/CurrentThread.cpp" "/home/cb/code/coursework/io_uring_reactor/build/src/CMakeFiles/io_uring_reactor.dir/CurrentThread.cpp.o"
   "/home/cb/code/coursework/io_uring_reactor/src/DefaultPoller.cpp" "/home/cb/code/coursework/io_uring_reactor/build/src/CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.o"
-  "/home/cb/code/coursework/io_uring_reactor/src/EpollPoller.cpp" "/home/cb/code/coursework/io_uring_reactor/build/src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o"
   "/home/cb/code/coursework/io_uring_reactor/src/EventLoop.cpp" "/home/cb/code/coursework/io_uring_reactor/build/src/CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.o"
   "/home/cb/code/coursework/io_uring_reactor/src/EventLoopThread.cpp" "/home/cb/code/coursework/io_uring_reactor/build/src/CMakeFiles/io_uring_reactor.dir/EventLoopThread.cpp.o"
   "/home/cb/code/coursework/io_uring_reactor/src/EventLoopThreadPool.cpp" "/home/cb/code/coursework/io_uring_reactor/build/src/CMakeFiles/io_uring_reactor.dir/EventLoopThreadPool.cpp.o"

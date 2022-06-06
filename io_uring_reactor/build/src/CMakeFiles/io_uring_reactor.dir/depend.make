@@ -31,20 +31,11 @@ src/CMakeFiles/io_uring_reactor.dir/CurrentThread.cpp.o: ../include/CurrentThrea
 src/CMakeFiles/io_uring_reactor.dir/CurrentThread.cpp.o: ../src/CurrentThread.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.o: ../include/Channel.hpp
-src/CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.o: ../include/EpollPoller.hpp
 src/CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.o: ../include/NonCopyable.hpp
 src/CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.o: ../include/Poller.hpp
 src/CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.o: ../include/TimeStamp.hpp
 src/CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.o: ../include/UringPoller.hpp
 src/CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.o: ../src/DefaultPoller.cpp
-
-src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o: ../include/Channel.hpp
-src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o: ../include/EpollPoller.hpp
-src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o: ../include/Logger.hpp
-src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o: ../include/NonCopyable.hpp
-src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o: ../include/Poller.hpp
-src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o: ../include/TimeStamp.hpp
-src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o: ../src/EpollPoller.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.o: ../include/Channel.hpp
 src/CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.o: ../include/CurrentThread.hpp

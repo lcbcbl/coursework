@@ -50,14 +50,6 @@ unistd.h
 sys/syscall.h
 -
 
-../include/EpollPoller.hpp
-sys/epoll.h
--
-vector
--
-Poller.hpp
-../include/Poller.hpp
-
 ../include/EventLoop.hpp
 vector
 -
@@ -263,22 +255,6 @@ Poller.hpp
 /home/cb/code/coursework/io_uring_reactor/src/Poller.hpp
 UringPoller.hpp
 /home/cb/code/coursework/io_uring_reactor/src/UringPoller.hpp
-EpollPoller.hpp
-/home/cb/code/coursework/io_uring_reactor/src/EpollPoller.hpp
-
-/home/cb/code/coursework/io_uring_reactor/src/EpollPoller.cpp
-errno.h
--
-unistd.h
--
-cstring
--
-EpollPoller.hpp
-/home/cb/code/coursework/io_uring_reactor/src/EpollPoller.hpp
-Logger.hpp
-/home/cb/code/coursework/io_uring_reactor/src/Logger.hpp
-Channel.hpp
-/home/cb/code/coursework/io_uring_reactor/src/Channel.hpp
 
 /home/cb/code/coursework/io_uring_reactor/src/EventLoop.cpp
 unistd.h

@@ -24,43 +24,17 @@ UringPoller::UringPoller(EventLoop *loop): Poller(loop)
         exit(0);
     }
 	conns = (conn_info*)calloc(sizeof(conn_info), 65536);
-    // struct io_uring_probe *probe;
-    // probe = io_uring_get_probe_ring(&ring_);
-    // if (!probe || !io_uring_opcode_supported(probe, IORING_OP_PROVIDE_BUFFERS))
-    // {
-    //     printf("Buffer select not supported, skipping...\n");
-    //     exit(0);
-    // }
-    // free(probe);
-
-    // sqe_ = io_uring_get_sqe(&ring_);
-    // io_uring_prep_provide_buffers(sqe_, bufs_, MAX_MESSAGE_LEN, BUFFERS_COUNT, group_id_, 0);
-
-    // io_uring_submit(&ring_);
-    // io_uring_wait_cqe(&ring_, &cqe_);
-
-    // if (cqe_->res < 0)
-    // {
-    //     printf("cqe->res = %d\n", cqe_->res);
-    //     exit(1);
-    // }
-    // io_uring_cqe_seen(&ring_, cqe_);
+   
 }
 
 UringPoller::~UringPoller()
-{
-    // close(epollfd_);
-}
+{}
 
 void UringPoller::update_channel(Channel *channel){}
 void UringPoller::remove_channel(Channel *channel){}
 
 TimeStamp UringPoller::poll(int timeout, ChannelList *active_channels)
 {
-	//struct io_uring_cqe *cqes[BACKLOG];
-    //原为info，但是因为每次都要io执行，影响效率，所有改为debug
-    //LOG_INFO("func = %s => fd total count:%d\n", __FUNCTION__, channels_.size());
-    //int nums = io_uring_peek_batch_cqe(&ring_, cqes, sizeof(cqes) / sizeof(cqes[0])); 
     count++;
     int ret = io_uring_submit_and_wait(&ring_, 0); //提交sq的entry，阻塞等到其完成，最小完成1个时返回
     if (ret < 0) {
@@ -101,12 +75,10 @@ void UringPoller::fill_active_channels(int cqu_count, ChannelList *active_channe
         LOG_INFO("active_channels push backed!");
         io_uring_cqe_seen(const_cast <io_uring*>(&ring_), cqe);
 
+        // 对于读时间 再次提交监听请求
         if(user_data->event == READ){
             add_socket_read(channel, 1337, 0, 0);
         }
-
-
-        //add_socket_read(channel, 1337, 0, 0);
     }
 }
 

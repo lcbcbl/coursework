@@ -122,22 +122,9 @@ src/CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.s"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cb/code/coursework/io_uring_reactor/src/DefaultPoller.cpp -o CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.s
 
-src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
-src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o: ../src/EpollPoller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o"
-	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/EpollPoller.cpp
-
-src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.i"
-	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cb/code/coursework/io_uring_reactor/src/EpollPoller.cpp > CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.i
-
-src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.s"
-	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cb/code/coursework/io_uring_reactor/src/EpollPoller.cpp -o CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.s
-
 src/CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
 src/CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.o: ../src/EventLoop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.o"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/EventLoop.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.i: cmake_force
@@ -150,7 +137,7 @@ src/CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.s: cmake_force
 
 src/CMakeFiles/io_uring_reactor.dir/EventLoopThread.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
 src/CMakeFiles/io_uring_reactor.dir/EventLoopThread.cpp.o: ../src/EventLoopThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/EventLoopThread.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/EventLoopThread.cpp.o"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/EventLoopThread.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/EventLoopThread.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/EventLoopThread.cpp.i: cmake_force
@@ -163,7 +150,7 @@ src/CMakeFiles/io_uring_reactor.dir/EventLoopThread.cpp.s: cmake_force
 
 src/CMakeFiles/io_uring_reactor.dir/EventLoopThreadPool.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
 src/CMakeFiles/io_uring_reactor.dir/EventLoopThreadPool.cpp.o: ../src/EventLoopThreadPool.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/EventLoopThreadPool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/EventLoopThreadPool.cpp.o"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/EventLoopThreadPool.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/EventLoopThreadPool.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/EventLoopThreadPool.cpp.i: cmake_force
@@ -176,7 +163,7 @@ src/CMakeFiles/io_uring_reactor.dir/EventLoopThreadPool.cpp.s: cmake_force
 
 src/CMakeFiles/io_uring_reactor.dir/InetAddress.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
 src/CMakeFiles/io_uring_reactor.dir/InetAddress.cpp.o: ../src/InetAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/InetAddress.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/InetAddress.cpp.o"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/InetAddress.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/InetAddress.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/InetAddress.cpp.i: cmake_force
@@ -189,7 +176,7 @@ src/CMakeFiles/io_uring_reactor.dir/InetAddress.cpp.s: cmake_force
 
 src/CMakeFiles/io_uring_reactor.dir/Logger.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
 src/CMakeFiles/io_uring_reactor.dir/Logger.cpp.o: ../src/Logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/Logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/Logger.cpp.o"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/Logger.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/Logger.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/Logger.cpp.i: cmake_force
@@ -202,7 +189,7 @@ src/CMakeFiles/io_uring_reactor.dir/Logger.cpp.s: cmake_force
 
 src/CMakeFiles/io_uring_reactor.dir/Poller.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
 src/CMakeFiles/io_uring_reactor.dir/Poller.cpp.o: ../src/Poller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/Poller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/Poller.cpp.o"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/Poller.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/Poller.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/Poller.cpp.i: cmake_force
@@ -215,7 +202,7 @@ src/CMakeFiles/io_uring_reactor.dir/Poller.cpp.s: cmake_force
 
 src/CMakeFiles/io_uring_reactor.dir/Socket.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
 src/CMakeFiles/io_uring_reactor.dir/Socket.cpp.o: ../src/Socket.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/Socket.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/Socket.cpp.o"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/Socket.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/Socket.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/Socket.cpp.i: cmake_force
@@ -228,7 +215,7 @@ src/CMakeFiles/io_uring_reactor.dir/Socket.cpp.s: cmake_force
 
 src/CMakeFiles/io_uring_reactor.dir/TcpConnection.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
 src/CMakeFiles/io_uring_reactor.dir/TcpConnection.cpp.o: ../src/TcpConnection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/TcpConnection.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/TcpConnection.cpp.o"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/TcpConnection.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/TcpConnection.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/TcpConnection.cpp.i: cmake_force
@@ -241,7 +228,7 @@ src/CMakeFiles/io_uring_reactor.dir/TcpConnection.cpp.s: cmake_force
 
 src/CMakeFiles/io_uring_reactor.dir/TcpServer.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
 src/CMakeFiles/io_uring_reactor.dir/TcpServer.cpp.o: ../src/TcpServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/TcpServer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/TcpServer.cpp.o"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/TcpServer.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/TcpServer.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/TcpServer.cpp.i: cmake_force
@@ -254,7 +241,7 @@ src/CMakeFiles/io_uring_reactor.dir/TcpServer.cpp.s: cmake_force
 
 src/CMakeFiles/io_uring_reactor.dir/Thread.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
 src/CMakeFiles/io_uring_reactor.dir/Thread.cpp.o: ../src/Thread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/Thread.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/Thread.cpp.o"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/Thread.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/Thread.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/Thread.cpp.i: cmake_force
@@ -267,7 +254,7 @@ src/CMakeFiles/io_uring_reactor.dir/Thread.cpp.s: cmake_force
 
 src/CMakeFiles/io_uring_reactor.dir/TimeStamp.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
 src/CMakeFiles/io_uring_reactor.dir/TimeStamp.cpp.o: ../src/TimeStamp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/TimeStamp.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/TimeStamp.cpp.o"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/TimeStamp.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/TimeStamp.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/TimeStamp.cpp.i: cmake_force
@@ -280,7 +267,7 @@ src/CMakeFiles/io_uring_reactor.dir/TimeStamp.cpp.s: cmake_force
 
 src/CMakeFiles/io_uring_reactor.dir/UringPoller.cpp.o: src/CMakeFiles/io_uring_reactor.dir/flags.make
 src/CMakeFiles/io_uring_reactor.dir/UringPoller.cpp.o: ../src/UringPoller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/UringPoller.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object src/CMakeFiles/io_uring_reactor.dir/UringPoller.cpp.o"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/io_uring_reactor.dir/UringPoller.cpp.o -c /home/cb/code/coursework/io_uring_reactor/src/UringPoller.cpp
 
 src/CMakeFiles/io_uring_reactor.dir/UringPoller.cpp.i: cmake_force
@@ -298,7 +285,6 @@ io_uring_reactor_OBJECTS = \
 "CMakeFiles/io_uring_reactor.dir/Channel.cpp.o" \
 "CMakeFiles/io_uring_reactor.dir/CurrentThread.cpp.o" \
 "CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.o" \
-"CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o" \
 "CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.o" \
 "CMakeFiles/io_uring_reactor.dir/EventLoopThread.cpp.o" \
 "CMakeFiles/io_uring_reactor.dir/EventLoopThreadPool.cpp.o" \
@@ -320,7 +306,6 @@ io_uring_reactor_EXTERNAL_OBJECTS =
 ../lib/libio_uring_reactor.so: src/CMakeFiles/io_uring_reactor.dir/Channel.cpp.o
 ../lib/libio_uring_reactor.so: src/CMakeFiles/io_uring_reactor.dir/CurrentThread.cpp.o
 ../lib/libio_uring_reactor.so: src/CMakeFiles/io_uring_reactor.dir/DefaultPoller.cpp.o
-../lib/libio_uring_reactor.so: src/CMakeFiles/io_uring_reactor.dir/EpollPoller.cpp.o
 ../lib/libio_uring_reactor.so: src/CMakeFiles/io_uring_reactor.dir/EventLoop.cpp.o
 ../lib/libio_uring_reactor.so: src/CMakeFiles/io_uring_reactor.dir/EventLoopThread.cpp.o
 ../lib/libio_uring_reactor.so: src/CMakeFiles/io_uring_reactor.dir/EventLoopThreadPool.cpp.o
@@ -335,7 +320,7 @@ io_uring_reactor_EXTERNAL_OBJECTS =
 ../lib/libio_uring_reactor.so: src/CMakeFiles/io_uring_reactor.dir/UringPoller.cpp.o
 ../lib/libio_uring_reactor.so: src/CMakeFiles/io_uring_reactor.dir/build.make
 ../lib/libio_uring_reactor.so: src/CMakeFiles/io_uring_reactor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX shared library ../../lib/libio_uring_reactor.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cb/code/coursework/io_uring_reactor/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library ../../lib/libio_uring_reactor.so"
 	cd /home/cb/code/coursework/io_uring_reactor/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/io_uring_reactor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

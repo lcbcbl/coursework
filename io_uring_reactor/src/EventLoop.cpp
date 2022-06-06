@@ -15,15 +15,14 @@ int CreateEventfd()
 {
     //非阻塞且不被子进程继承
     int event_fd = eventfd(0, EFD_NONBLOCK | EFD_CLOEXEC);
-    if (event_fd < 0)
-    {
+    if (event_fd < 0) {
         LOG_FATAL("eventfd error:%d \n", errno);
     }
 
     return event_fd;
 }
 
-EventLoop::EventLoop(int type)
+EventLoop::EventLoop(int type)  // 指定poller类型 只能是0 对应UringPoller
     : looping_(false), 
     quit_(false), 
     calling_pending_functors_(false), 
@@ -33,12 +32,10 @@ EventLoop::EventLoop(int type)
     wakeup_channel_(new Channel(this, wakeup_fd))
 {
     LOG_DEBUG("EventLoop created %p in thread %d \n", this, threadId_);
-    if (t_loop_in_thisTherad)
-    {
+    if (t_loop_in_thisTherad) {
         LOG_FATAL("Another EventLoop %p exists in this thread %d \n", this, threadId_);
     }
-    else
-    {
+    else {
         t_loop_in_thisTherad = this;
     }
 
